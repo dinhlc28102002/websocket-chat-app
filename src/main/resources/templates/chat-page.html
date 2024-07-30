@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <th:block th:insert="fragment/layout::head"/>
+    <link rel="stylesheet" th:href="@{/css/index.css}">
+    <script th:src="@{/js/chat.js}"></script>
+    <title>Chat Page</title>
+</head>
+<body>
+<div>
+    <th:block th:insert="fragment/layout::header"/>
+    <div class="container">
+<!--        <div class="row mt-3 border">-->
+<!--            <div class="col-lg-5 border-right p-0">-->
+<!--                <div class="headind_srch">-->
+<!--                    <div class="recent_heading">-->
+<!--                        <h4 class="test">Recent</h4>-->
+<!--                    </div>-->
+<!--                    <div class="srch_bar">-->
+<!--                        <div class="stylish-input-group">-->
+<!--                            <input type="text" class="search-bar" placeholder="Search">-->
+<!--                            <span class="input-group-addon">-->
+<!--                                <button type="button"> <i class="fa fa-search" aria-hidden="true"></i> </button>-->
+<!--                            </span>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+
+<!--                <div class="inbox_chat" id="inbox-chat">-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="col-lg-7 mesgs">-->
+<!--                <div class="msg_history" id="msg_history">-->
+<!--                </div>-->
+
+<!--                <div class="type_msg">-->
+<!--                    <div class="input_msg_write" id="formSubmit">-->
+<!--                        <input type="text" class="write_msg" placeholder="Type a message" id="message-to-send">-->
+<!--                        <button class="msg_send_btn" id="btn-send" type="button"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+
+        <div id="chat"></div>
+    </div>
+</div>
+</body>
+</html>
